@@ -1,0 +1,82 @@
+
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: #c4cdce;
+  border-radius: 10px;
+  position: fixed;
+  padding-right: 78%;
+}
+
+#header-img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+#nav-bar {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 330%;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: black;
+}
+
+.page {
+
+  padding-top: 05%;
+}
+
+#intro {
+  background-color: #c4cdce;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+  #info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+
+
+    .level {
+      background-color: #ddd;
+      color: black;
+      padding: 15px 0;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+.vdo {
+  display: flex;
+}
+
+#vdo-p {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 05%;
+
+}
+
+#order {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-image: url(http://www.factmag.com/wp-content/uploads/2017/10/nuraphone-031017-970x550.jpg);
+  background-size: auto;
+}
